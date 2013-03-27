@@ -1,6 +1,6 @@
 === embAd ===
 Contributors: ram
-Tags: embAd, ads, sidebar, embed
+Tags: ads, advertising, admen, automatic, admin, sidebar, embed, plugin, integration
 Requires at least: 2.6
 Tested up to: 3.5
 Stable tag: 1.0.0
