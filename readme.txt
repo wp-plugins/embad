@@ -14,7 +14,7 @@ Embed and control ads in your site using a powerful drag & drop toolbar.
 
 Don't know what is embAd? Check out our [video](http://youtu.be/BPb7m9cKk5U).
 
-http://www.youtube.com/v/BPb7m9cKk5U?hd=1
+http://www.youtube.com/watch?v=BPb7m9cKk5U&hd=1
 
 == Installation ==
 
