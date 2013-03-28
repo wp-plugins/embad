@@ -6,12 +6,12 @@ Tested up to: 3.5
 Stable tag: 1.0.0
 License: GPLv2 or later
 
-The plugin integrates your website with embAD. [embAD](http://www.embad.com) is an awesome & simple service that helps website owners to embed ads into their website.
-And manage the advertisements placement with ease and simplicity.
+The plugin integrates your website with embAD. embAD is an awesome & simple service that helps website owners to embed ads into their website.
+
 
 == Description ==
 
-Embed and control ads in your site using a powerful drag & drop interface. 
+Embed and control ads in your site using a powerful drag & drop interface , manage the advertisements in your site  with simplicity and ease.
 
 Don't know what is embAd? Check out our [video](http://youtu.be/BPb7m9cKk5U) or try it yourself in our [demo page](http://www.embad.com/Demo_Page).
 
