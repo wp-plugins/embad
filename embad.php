@@ -67,7 +67,7 @@ function embadsetting_page() {
             <td colspan="2"><h2>EmbAd Official Plugin</h2></td>
           </tr>
           <tr>
-            <td colspan="2">This plugin will automatically add your EmbAd script to your website pages</td>
+            <td colspan="2">This plugin will automatically add <a href="http://www.embad.com">embAd</a> script to your website pages</td>
           </tr>
           <tr>
             <td colspan="2" height="30">&nbsp;</td>
