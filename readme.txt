@@ -1,12 +1,12 @@
-=== embAd ===
+=== embAd Ads ===
 Contributors: ram
-Tags: ads, advertising, admen, automatic, admin, sidebar, embed, plugin, integration, simple, monetization , earning, advertisement, drag and drop, easy, advert, monetize
+Tags: ads, advertising, admen, automatic, admin, sidebar, embed, plugin, integration, simple, monetization , earning, advertisement, drag and drop, easy, advert, monetize, ads , advertise
 Requires at least: 2.6
 Tested up to: 3.5
 Stable tag: 1.0.0
 License: GPLv2 or later
 
-The plugin integrates your website with embAD. embAD is an awesome & simple service that helps website owners to embed ads into their website.
+This plugin integrates your website with embAD. embAD is an awesome & simple service that helps website owners to embed ads into their website.
 
 == Description ==
 
@@ -14,7 +14,7 @@ Embed and control ads in your site using a powerful drag & drop interface , plac
 
 = Features: =
 *   Simple integration, no messy configuration.
-*   Place and forget, Place an advert in one page  and embAD will fit it to your them in other pages.
+*   Place and forget, Place an advert in one page  and embAD will fit it to your theme in other pages on your site.
 *   Easy to use.
 *   No coding needed.
 
