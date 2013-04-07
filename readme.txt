@@ -13,7 +13,7 @@ This plugin integrates your website with embAD. embAD is an awesome & simple ser
 Embed and control ads in your site using a powerful drag & drop interface , place advertisements in your site with simplicity and ease.
 
 = Features: =
-*   Simple integration, no messy configuration.
+*   Simple integration, no messy configuration... advertising with ease.
 *   Place and forget, Place an advert in one page  and embAD will fit it to your theme in other pages on your site.
 *   Easy to use.
 *   No coding needed.
