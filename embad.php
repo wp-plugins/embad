@@ -57,54 +57,69 @@ function embadsetting_page() {
 	$embad_wsid = ( get_option( 'embad_wsid' ) ) ? get_option( 'embad_wsid' ) : 0;
 	
 ?>
+<style>
+.explanation {
+	width:100%;
+}
+.input-wrapper {
+	padding:10px 20px;
+}
+.input-title, .input-field {
+	display:inline-block;
+}
+.input-title {
+	min-width:120px;
+	vertical-align:top;
+	margin-right:25px;
+}
+.input-group {
+	padding:20px;
+}
+</style>
 <form method="post" name="frm_embad" id="frm_embad">
 	<?php wp_nonce_field( 'embad_plugin_save' ); ?>
   <input type="hidden" id="embadid" name="embadid" value="" />
-  <div style="float:left; width:40%;"><table border="1" width="100%">
-    <tr>
-      <td><table width="95%">
-          <tr>
-            <td colspan="2"><h2>EmbAd Official Plugin</h2></td>
-          </tr>
-          <tr>
-            <td colspan="2">This plugin will automatically add <a href="http://www.embad.com">embAd</a> script to your website pages</td>
-          </tr>
-          <tr>
-            <td colspan="2" height="30">&nbsp;</td>
-          </tr>
-          <tr>
-            <td valign="top" width="200">EmbAd Ads:</td>
-			<td>
+	<div style="float:left; width:40%;"><table border="1" width="100%">
+	<div class="title"><div id="icon-options-general" class="icon32"> </div><h2>EmbAd Official Plugin</h2></div>
+	<div class="explanation">
+	        <div>This plugin will automatically add <a href="http://www.embad.com">embAd</a> script to your website pages</div>
+	        <p class='explation'>
+		        To use it simply register your website with <a href="http://www.embad.com/user/register">embAd</a>, Which will provide you with two identifying codes WSID and PID,
+		        copy and paste them to the input fields below.
+	        </p>
+	</div>
+	<div class="input-data input-wrapper">
+		<div class="registeration-data  input-group" >
+			<div id='publishr-data  input-wrapper' >
+	            <div class="input-title"><label for="pid">Publisher ID :</label></div>
+	            <div class="input-field">
+					<input type="text" name="embad_pid" id="embad_pid"  value="<?php echo esc_attr( $embad_pid ); ?>"/><br />
+					<span class="small_txt">Please enter your EmbAd pid</span>
+				</div>
+			</div>
+		
+          
+			<div id="website-data  input-wrapper">
+				<div class="input-title"><label for="wsid">Website ID :</label></div>
+				<div class="input-field">
+					<input type="text" name="embad_wsid" id="embad_wsid" value="<?php echo esc_attr( $embad_wsid ); ?>"/><br />
+					<span class="small_txt">Please enter your EmbAd wsid</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class='active-data input-wrapper '>
+            <div class="input-title">EmbAd Ads:</div>
+			<div class="input-field">
 				<input type="radio" name="embad_status" value="1" <?php checked( $embad_status, 1 ); ?> /> On <br />
 				<input type="radio" name="embad_status" value="0" <?php checked( $embad_status, 0 ); ?> /> Off
-			</td>
-          </tr>
-          <tr>
-            <td colspan="2" height="20">&nbsp;</td>
-          </tr>
-          <tr>
-            <td valign="top"><label for="pid">Publisher ID :</label></td>
-            <td>
-				<input type="text" name="embad_pid" id="embad_pid"  value="<?php echo esc_attr( $embad_pid ); ?>"/><br />
-				<span class="small_txt">Please enter your EmbAd pid</span>
-			</td>
-          </tr>
-          <tr>
-            <td valign="top"><label for="wsid">Website ID :</label></td>
-            <td>
-				<input type="text" name="embad_wsid" id="embad_wsid" value="<?php echo esc_attr( $embad_wsid ); ?>"/><br />
-				<span class="small_txt">Please enter your EmbAd wsid</span>
-			</td>
-          </tr>
-        </table></td>
-      <td></td>
-    </tr>
-    <tr>
-		<td height="40">
-			<input type="submit" class="button-primary" name="btnSave" value="Save Settings" />
-		</td>
-    </tr>
-  </table>
+			</div>
+        </div>
+    </div>
+     
+	<div class="form-footer">
+		<input type="submit" class="button-primary" name="btnSave" value="Save Settings" />
+	</div>
   </div>
 
 </form>
